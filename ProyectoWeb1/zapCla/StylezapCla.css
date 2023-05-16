@@ -1,0 +1,50 @@
+body{
+    background-color: rgb 250,250,250  ;
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0, 195, 255,0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+
+}
+header img{
+    border-radius: 50%;
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+
+}
+nav a:hover {
+    color: white;
+}
+div{
+    display: flex;
+    margin: 25px;
+}
+div article img{
+    height: 150px;
+    width: 100px;
+}
+div article{
+    height: 350px;
+    width: 200px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5%;
+    background-color: aqua;
+    justify-content: space-between;
+}
