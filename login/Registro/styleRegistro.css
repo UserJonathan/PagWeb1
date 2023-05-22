@@ -5,23 +5,27 @@
     box-sizing: border-box;
 }
 :root{
-    --color-acero: rgb(70, 130, 180);
+    /* --color-acero: rgb(70, 130, 180);
     --dark-color: #000000;
     --mid-color: #6D676E;
     --light-color: #FFFFFF;
-    --bg-color:#0f0f0f;
+    --bg-color:#0f0f0f; */
+    --brand-color: #60A5FA;
+    --dark-color: #152D73;
+    --mid-color: #D4D4D8;
+    --light-color: #F8FAFC;
 }
 body{
-    background-color: var(--bg-color);
+    background-color: var(--dark-color);
 }
 .box-registro{
     width: 500px;
-    background: var(--color-acero);
+    background: var(--brand-color);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 5px;
-    color: var(--dark-color);
+    color: black;
 }
 h1{
     text-align: center;
