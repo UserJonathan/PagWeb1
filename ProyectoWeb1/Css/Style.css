@@ -43,9 +43,6 @@ header{
     z-index: 1;
 
 }
-.logo{
-    font-size: 20px;
-}
 header > input{
     background-color: var(--mid-color);
     width: 350px;
@@ -61,18 +58,18 @@ header a{
 
     /* main */
 
-.titulo{
+.categoria{
     text-align: center;
     color: var(--light-color);
     
 }
 
-section{
+article{
     display: flex;
     margin: 25px;
     padding: 15px;
 }
-article{
+section{
     margin: 10px;
     border-radius: 10% ;
     padding: 25px;
@@ -80,30 +77,30 @@ article{
     box-shadow: 10px 7px 20px ;
     transition: transform 350ms;
 }
-.num1{
+.bg-color1{
     background: var(--light-color);
 }
-.num2{
+.bg-color2{
     background: var(--mid-color);
 }
-article:hover{
+section:hover{
     transform: scale(1.1);
 }
-.clasico>article>a> h3{
+article>section>a> h3{
     font-size: 15px;
 }
 
-article h3{
+section h3{
     color: black;
     text-align: center;
     font-size: 25px;
 }
-article img{
+section img{
     height: 150px;
     width: 90%;
     border-radius: 5%;
 }
-article h4{
+section h4{
     font-size: 18px;
     color: #22C55E;
 }
